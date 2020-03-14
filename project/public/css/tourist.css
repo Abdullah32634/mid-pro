@@ -1,0 +1,215 @@
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  height: 55px;
+
+}
+
+.topnav input {
+  width: 65%;
+  float: left;
+  padding: 6px;
+  margin-left: 6px;
+  margin-top: 8px;
+  margin-bottom: 7px;
+  font-size: 17px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.topnav button{
+  margin: 8px;
+  width:138px;
+  height:40px;
+  font-size: 17px;
+
+}
+.cover{
+  height: 569px;
+  width: 100%;
+  background-image:url('../images/hd2.jpg');
+  background-size:100% 100%;
+  overflow: hidden;
+  opacity: 0.7;
+}
+.cover h2{
+  text-align: center;
+  margin-top:200px;
+  font-family: Magneto;
+  color: #b3ffcc;
+}
+
+#div2{
+  height:350px;
+  width:100%;
+  margin-top: 50px;
+    
+
+}
+#div2 #div21{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/co1.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+#div2 #div22{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image: url('../images/co2.jpg');
+    background-size:100% 100%;
+    margin-left:2%;
+}
+#div2 #div23{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image: url('../images/hd1.jpg');
+    background-size:100% 100%;
+    margin-left:2%;
+}
+#div3{
+  height:350px;
+  width:100%;
+  margin-top: 25px;
+}
+#div3 #div31{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/sa1.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+
+#div3 #div32{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/sy1.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+#div3 #div33{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/sy2.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+
+#div4{
+  height:350px;
+  width:100%;
+  margin-top: 25px;
+}
+#div4 #div41{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/sy3.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+
+#div4 #div42{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/sy4.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+#div4 #div43{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/co3.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+
+#div5{
+  height:350px;
+  width:100%;
+  margin-top: 25px;
+}
+#div5 #div51{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/ct.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+
+#div5 #div52{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/jaf.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+#div5 #div53{
+  width: 30%;
+  height: 100%;
+    float:left;
+    background-image:url('../images/ba.jpg'); 
+    background-size:100% 100%;
+    margin-left:2%;
+}
+.selall{
+  height: 300px;
+  width: 100%;
+  margin-top: 80px;
+  background-image: url('../images/hd2.jpg');
+  background-size:100% 100%;
+  opacity: 0.7;
+  position: absolute;
+  position: relative;
+}
+.selall .sel select{
+  width: 300px;
+  height:40px;
+ 
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.selall .re{
+  float: left;
+}
+.selall .re button{
+  width: 300px;
+  height:40px;
+  background-color: #B5B6B1;
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.selall .date input{
+  width: 300px;
+  height:40px;
+  background-color: #B5B6B1;
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.selall select{
+   width: 300px;
+  height:40px;
+  background-color: #B5B6B1;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.nxt button{
+  margin-top: 50px;
+  width: 200px;
+  margin-left:471px;
+  margin-bottom: 40px;
+}

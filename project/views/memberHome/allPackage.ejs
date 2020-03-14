@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>all package</title>
+</head>
+<body>
+<center>
+	<h1>all package</h1>
+
+	<table class="table-bordered table-striped table-hover " border="1">
+		<thead>
+			<th>ID</th>
+			<th>Name</th>
+			<th>type</th>
+			<th>Short Details</th>
+			<th>price($$$$)</th>
+			<th>PackageFeatures</th>
+			<th>PackageDetails</th>
+			<th>Created at</th>
+			<th>Updated at </th>
+			<th>Action </th>
+
+		</thead>
+		<% for(var i=0; i < details.length; i++){ %>
+			<tbody>
+		<tr>
+			<td><%=details[i].PackageId%></td>
+			<td><%=details[i].PackageName%></td>
+			<td><%=details[i].PackageType%></td>
+			<td><%=details[i].PackageLocation%></td>
+			<td><%=details[i].PackagePrice%></td>
+			<td><%=details[i].PackageFetures%></td>
+			<td><%=details[i].PackageDetails%></td>
+			<td><%=details[i].Creationdate%></td>
+			<td><%=details[i].UpdationDate%></td>
+			
+			 
+		</tr>
+		<%}%>
+	</tbody>
+	</table>
+	
+
+	<a href="/memberHome" class="btn btn-primary" role="button">Back</a>
+
+</center>
+
+
+
+
+</body>
+</html>
